@@ -46,7 +46,7 @@
 
 .titulo_sessao{
 
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     text-align: center;
     padding: 2rem;
     
@@ -59,7 +59,7 @@
 
 .subtitulo_sessao{
 
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin:2rem 0.5rem;
     text-align: center;
 }
@@ -74,7 +74,7 @@
 
 .img_container{
 
-    width: 65%;
+    width: 70%;
     margin-bottom: 2rem;
 }
 
@@ -89,10 +89,9 @@
 
 .texto_servicos_container{
 
-    font-size: 0.8em;
-    width: 50%;
+    font-size: 1rem;
     font-family:'Rubik', sans-serif;  
-    width: 68%;
+    width: 90%;
     text-align: justify;
     
 }
