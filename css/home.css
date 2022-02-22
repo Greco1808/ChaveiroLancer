@@ -1,0 +1,116 @@
+.cabecalho{
+
+    position: relative; 
+    width: 100%;
+    height: 33vh;
+}
+
+.img_institucional{
+
+    width: 100%;
+    filter: brightness(0.5);
+    height: 35vh;
+    object-fit: cover;
+}
+
+.chamada_principal{
+
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow:1px 5px 5px rgba(0,0,0,0.37);
+    font-family: 'Rubik', sans-serif;
+    color:white;
+    font-size:0.8rem;
+    padding:0.8rem;
+    width:80%;
+}
+
+.chamada_principal h1{
+
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+.chamada_principal h2{
+    margin-bottom: 1em; 
+}
+
+.titulo_sessao, .subtitulo_sessao{
+
+    font-family:'Rubik', sans-serif; 
+
+}
+
+.titulo_sessao{
+
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.servicos{
+
+    background-color:#edede0;
+}
+
+.subtitulo_sessao{
+
+    font-size: 1rem;
+    margin:2rem 0.5rem;
+    text-align: center;
+}
+
+.container_servicos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_container{
+
+    width: 65%;
+    margin-bottom: 2rem;
+}
+
+.servicos_img{
+
+    object-fit: cover;
+    margin-left: 0.5em;
+    border-radius: 10px;
+    width: 85%;
+    height: 100%;
+}
+
+.texto_servicos_container{
+
+    font-size: 0.8em;
+    width: 50%;
+    font-family:'Rubik', sans-serif;  
+    width: 68%;
+    text-align: justify;
+    
+}
+
+#servicos_img_chaveiro{
+
+    object-fit: cover;
+    border-radius: 10px;
+    width: 85%;
+    height: 100%;
+}
+
+#lista_master{
+
+    margin-bottom: 0.7em;
+}
+
+#lista_sub{
+
+    padding-bottom: 8px;
+}
