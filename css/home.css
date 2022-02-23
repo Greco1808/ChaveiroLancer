@@ -178,3 +178,16 @@
     margin-left:1.5em;
     
 }
+
+.container{
+  
+  display:flex;
+  overflow:auto;
+  scroll-snap-type:x mandatory;
+}
+
+.item{
+  min-width:100%;
+  scroll-snap-align:start;
+  height:200px;
+}
