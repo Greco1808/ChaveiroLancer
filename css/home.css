@@ -183,6 +183,7 @@
   
   display:flex;
   overflow:auto;
+  position:relative;
   scroll-snap-type:x mandatory;
 }
 
@@ -210,3 +211,22 @@
     
 }
 
+#controle_container_direita{
+    
+    position:absolute;
+    right:0;
+    top:50%;
+    padding:5px;
+    background:#6d6f7f;
+    
+}
+
+#controle_container_esquerda{
+    
+    position:absolute;
+    left:0;
+    top:50%;
+    padding:5px;
+    background:#6d6f7f;
+    
+}
