@@ -81,15 +81,18 @@
 
 .titulo_sessao{
 
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
-    padding: 2rem;
+    padding-top: 4rem;
+    font-weight:bold;
+    text-transform:uppercase;
     
 }
 
 .servicos{
 
     background-color:#ffcb2c;
+    padding-bottom:4rem;
 }
 
 .subtitulo_sessao{
@@ -161,6 +164,7 @@
 #lista_master{
 
     margin-bottom: 0.7em;
+    margin-right:1.5em;
 }
 
 #lista_sub{
