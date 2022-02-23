@@ -187,7 +187,21 @@
 }
 
 .item{
-  min-width:100%;
-  scroll-snap-align:start;
-  height:200px;
+  min-width: 100%;
+  scroll-snap-align: start;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
+
+.item p{
+    
+    margin: 0 2rem;
+    font-style: italic;
+    
+}
+    
+
