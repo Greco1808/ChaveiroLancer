@@ -60,9 +60,16 @@
 
 .subtitulo_sessao{
 
-    font-size: 1.4rem;
-    margin:4rem 0.5rem;
+    font-size: 1.3rem;
+    margin:4rem 0;
     text-align: center;
+    padding:17px 0;
+    background-color:#e2852f;
+    border:none;
+    width:100vh;
+    color:#49141e;
+    font-weight:bold;
+
 }
 
 .container_servicos{
