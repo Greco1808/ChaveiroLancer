@@ -41,7 +41,7 @@
 
 .titulo_sessao, .subtitulo_sessao{
 
-    font-family:'Rubik', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -91,7 +91,7 @@
 .texto_servicos_container{
 
     font-size: 1rem;
-    font-family:'Rubik', sans-serif;  
+    font-family: 'Roboto', sans-serif; 
     width: 90%;
     text-align: justify;
     color:#0c1c25;
