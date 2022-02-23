@@ -16,13 +16,13 @@
 .chamada_principal{
 
     position: absolute;
-    top: 5%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     text-shadow:1px 5px 5px rgba(0,0,0,0.37);
     font-family: 'Rubik', sans-serif;
     color:white;
-    font-size:1.3rem;
+    font-size:1.6rem;
     padding:0.8rem;
     width:80%;
     
@@ -30,9 +30,9 @@
 
 .chamada_principal h1{
 
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
-    margin-bottom: 1.5em;
+    margin-bottom: 2.5em;
 }
 
 .chamada_principal h2{
