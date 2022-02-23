@@ -75,8 +75,9 @@
 
 .img_container{
 
-    width: 70%;
+    width: 90%;
     margin-bottom: 2rem;
+    margin-left:2.5em;
 }
 
 .servicos_img{
@@ -93,9 +94,10 @@
     font-size: 1rem;
     font-family: 'Roboto', sans-serif; 
     width: 90%;
-    text-align: justify;
+    text-align: left;
     color:#0c1c25;
     line-height:28px;
+    margin-left:1.2em;
     
 }
 
