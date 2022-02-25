@@ -301,8 +301,10 @@ iframe{
 #whatsapp_logo{
     
     position:fixed;
-    bottom:0;
-    left:0;
+    bottom:2%;
+    left:2%;
     z-index:99;
+    width: 16%;
+    height: 10%;
     
 }
