@@ -237,3 +237,28 @@
     right:0;
     
 }
+
+.contato{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+adress{
+    margin-bottom:1rem;
+    width:90vw;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+iframe{
+    
+    width: 93vw;
+    height: 30vh;
+    margin-bottom: 1rem;
+    
+}
+
