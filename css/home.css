@@ -263,3 +263,10 @@ iframe{
     
 }
 
+.item2{
+    
+  min-width: 100%;
+  scroll-snap-align: start;
+  height: 200px;
+    
+}
