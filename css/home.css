@@ -154,6 +154,31 @@
     
 }
 
+#preco{
+    
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    color: #df0029;
+    line-height: 31px;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid;
+    font-weight: bold;
+    
+}
+
+a{
+    
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    border: none;
+    background-color: #8896d9;
+    padding: 10px;
+    border-radius: 12px;
+    color: #fffbf3;
+    
+}
+
 #servicos_img_chaveiro{
 
     object-fit: cover;
