@@ -12,6 +12,37 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Kanit:wght@300&family=Oswald&family=Rubik:wght@500&display=swap" rel="stylesheet">
         <link href='https://css.gg/key.css' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/0bb11c30c5.js" crossorigin="anonymous"></script>
+        <script>
+
+var index =0
+var n;
+
+function avanca(n){
+ 
+  controlaSlide(index += n)
+  
+}
+
+function controlaSlide(){
+  
+  var slides = document.getElementsByClassName("item")
+  
+  if(index >= slides.length){
+    index = 0;
+  }
+  
+  if(index < 0){
+    index = slides.length - 1;
+  }
+  
+ var count = slides[index]
+   
+ console.log(index)
+ console.log(slides.length)
+ count.scrollIntoView()
+  
+}
+</script>
         <title>Chaveiro Lancer</title>
     </head>
     <body>
@@ -129,37 +160,7 @@
 
         </footer>
     </body>
-<script>
 
-var index =0
-var n;
-
-function avanca(n){
- 
-  controlaSlide(index += n)
-  
-}
-
-function controlaSlide(){
-  
-  var slides = document.getElementsByClassName("item")
-  
-  if(index >= slides.length){
-    index = 0;
-  }
-  
-  if(index < 0){
-    index = slides.length - 1;
-  }
-  
- var count = slides[index]
-   
- console.log(index)
- console.log(slides.length)
- count.scrollIntoView()
-  
-}
-</script>
 
  
 </html>
