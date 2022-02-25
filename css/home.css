@@ -170,12 +170,14 @@
 .orcamento{
     
     font-family: 'Roboto', sans-serif;
-    width: 90%;
+    width: 70%;
     border: none;
     background-color: #8896d9;
-    padding: 10px;
+    padding: 15px;
     border-radius: 12px;
     color: #fffbf3;
+    text-align:center;
+    text-transform:uppercase;
     
 }
 
