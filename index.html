@@ -12,37 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Kanit:wght@300&family=Oswald&family=Rubik:wght@500&display=swap" rel="stylesheet">
         <link href='https://css.gg/key.css' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/0bb11c30c5.js" crossorigin="anonymous"></script>
-        <script>
-
-var index =0
-var n;
-
-function avanca(n){
- 
-  controlaSlide(index += n)
-  
-}
-
-function controlaSlide(){
-  
-  var slides = document.getElementsByClassName("item")
-  
-  if(index >= slides.length){
-    index = 0;
-  }
-  
-  if(index < 0){
-    index = slides.length - 1;
-  }
-  
- var count = slides[index]
-   
- console.log(index)
- console.log(slides.length)
- count.scrollIntoView()
-  
-}
-</script>
+        <script src="js/script.js"></script>
         <title>Chaveiro Lancer</title>
     </head>
     <body>
@@ -99,10 +69,13 @@ function controlaSlide(){
                 </div>
         </section>
         <section class="depoimentos">
+            
             <h1 class="titulo_sessao">Depoimentos</h1>
-            <span id="container_controle_direita" onclick="avanca(1)">&#10094</span>
-                <span id="container_controle_esquerda" onclick="avanca(-1)">&#10095</span>
+            
+            
             <div class="container">
+
+                
                         
                 
   <div class="item">
@@ -152,6 +125,8 @@ function controlaSlide(){
     </p>    
 </div>  
 </div>
+<span id="container_controle_direita" onclick="avanca(1)">&#10094</span>
+                <span id="container_controle_esquerda" onclick="avanca(-1)">&#10095</span>
             
         </section>
 
@@ -176,7 +151,5 @@ function controlaSlide(){
         </footer>
      <a href="https://api.whatsapp.com/send?phone=5519995263363"><img src="img/whatsapplogo.png" id="whatsapp_logo"></a>
     </body>
-
-
- 
+    
 </html>
