@@ -31,6 +31,6 @@ function controlaSlide(){
  var count = slides[index]
    
  
- count.scrollIntoView()
+ count.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
   
 }
