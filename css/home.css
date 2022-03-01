@@ -81,7 +81,7 @@
 
 .titulo_sessao{
 
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-align: center;
     padding-top: 4rem;
     font-weight:bold;
@@ -94,7 +94,7 @@
 
     background-color:#b3cdff;
     padding-bottom:4rem;
-    margin-top:5rem;
+    margin-top:1rem;
 }
 
 .subtitulo_sessao{
@@ -129,16 +129,16 @@
 
 .img_container{
 
-    width: 90%;
+    width: 85%;
     margin-bottom: 2rem;
-    margin-left:2.5em;
+    
 }
 
 .servicos_img{
 
     object-fit: cover;
-    width: 85%;
-    height: 45vh;
+    width: 100%;
+    height: 30vh;
 }
 
 .texto_servicos_container{
@@ -183,8 +183,7 @@
 #servicos_img_chaveiro{
 
     object-fit: cover;
-    border-radius: 10px;
-    width: 85%;
+    width: 100%;
     height: 100%;
 }
 
@@ -217,6 +216,7 @@
   overflow:auto;
   position:relative;
   scroll-snap-type:x mandatory;
+  margin:4rem 0;
 }
 
 .item{
@@ -303,8 +303,38 @@ iframe{
 
 .nossos_servicos{
 
-    background-color: #8b92d4;
+    background-color: #1a677f;
     margin: 5rem 0;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.nossos_servicos h1{
+
+    color: white;
+}
+
+#container_controle_direita_2, #container_controle_esquerda_2{
+
+    position:absolute;
+    top:50%;
+    padding:5px;
+    background:#6d6f7f;
+
+
+
+}
+
+#container_controle_esquerda_2{
+
+    right:0;
+
+}
+
+#container_controle_direita_2{
+
+    left:0;
+
 }
 
 .legenda{
@@ -314,21 +344,12 @@ iframe{
     text-align: center;
     text-decoration: underline;
     margin-bottom:1rem;
+    color: black;
+    background-color: white;
+    padding: 1rem;
 }
 
-.insta{
 
-    font-size: 1.5em;
-    margin:2rem 4rem;
-    text-align: center;
-    color:#291800;
-    border: 1px solid;
-    padding: 8px;
-    border-radius: 8px;
-    
- 
-
-}
 
 #whatsapp_logo{
     
@@ -348,3 +369,28 @@ height:5rem;
 margin-top:2rem;
 
 }
+
+.insta_logo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius:10px;
+    width: 80%;
+    margin:0 auto;
+    background-color: white;
+    box-shadow: 5px 5px 15px -6px #000000;
+    
+
+
+    
+}
+
+.insta_logo p{
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif; 
+    color: black;
+}
+
+
