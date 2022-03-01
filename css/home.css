@@ -337,6 +337,14 @@ iframe{
 
 }
 
+.nossos_servicos_img{
+
+    object-fit: cover;
+    width: 100%;
+    height: 45vh;
+}
+
+
 .legenda{
 
     font-family: 'Roboto', sans-serif;
