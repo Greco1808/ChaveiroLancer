@@ -67,11 +67,30 @@
     font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 2.5em;
+    color: #31fae3;
 }
 
 .chamada_principal h2{
     margin-bottom: 1em; 
+    line-height: 40px;
+    font-size: 1.2em;
+
 }
+
+.chamada_principal h3{
+
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    color: #1ab93c;
+}
+
+.chamada_principal h4{
+    font-size: 1.2em;
+    line-height: 40px;
+    
+    
+}
+
 
 .titulo_sessao, .subtitulo_sessao{
 
@@ -249,7 +268,7 @@
     
     position:absolute;
     top:65%;
-    padding:5px;
+    padding:10px;
     background:#6d6f7f;
     
     
@@ -372,9 +391,12 @@ iframe{
 
 .rodape{
 
-background-color: #445593;
-height:5rem;
+background-color:#445593;
+height:3rem;
 margin-top:2rem;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
@@ -399,6 +421,13 @@ margin-top:2rem;
     margin-left: 1rem;
     font-family: 'Roboto', sans-serif; 
     color: black;
+}
+
+.rodape small{
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 
