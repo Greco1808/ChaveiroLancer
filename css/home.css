@@ -50,7 +50,7 @@
 .chamada_principal{
 
     position: absolute;
-    top: 15%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
     text-shadow:1px 5px 5px rgba(0,0,0,0.37);
