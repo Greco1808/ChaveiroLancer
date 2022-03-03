@@ -12,6 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Kanit:wght@300&family=Oswald&family=Rubik:wght@500&display=swap" rel="stylesheet">
         <link href='https://css.gg/key.css' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/0bb11c30c5.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="js/script.js"></script>
         <title>Chaveiro Lancer</title>
     </head>
@@ -30,7 +31,7 @@
             <h1 class="titulo_sessao">Serviços</h1>
             <h2 class="subtitulo_sessao">Chaveiro 24 horas</h2>
                 <div class="container_servicos">
-                    <figure class="img_container">
+                    <figure class="img_container" data-aos="zoom-in">
                         <img src="img/trancado_fora.jpg" class="servicos_img">
                     </figure>
                     <p class="texto_servicos_container">
@@ -46,7 +47,7 @@
                 </div>
                 <h2 class="subtitulo_sessao">Instalação de fechadura eletrônica</h2>
                 <div class="container_servicos">
-                    <figure class="img_container"> 
+                    <figure class="img_container" data-aos="zoom-in"> 
                         <img src="img/fechadura_eletronica.jpg" class="servicos_img">
                     </figure>
                     <p class="texto_servicos_container">
@@ -60,7 +61,7 @@
                 </div>
                 <h2 class="subtitulo_sessao">Confecção e cópia de chaves</h2>
                 <div class="container_servicos">
-                    <figure class="img_container">
+                    <figure class="img_container" data-aos="zoom-in">
                         <img src="img/copia_chaves.jpg" id="servicos_img_chaveiro">
                     </figure>
                     <ul class="texto_servicos_container">
@@ -212,5 +213,8 @@
         </footer>
      <a href="https://api.whatsapp.com/send?phone=5519995263363"><img src="img/whatsapplogo.png" id="whatsapp_logo"></a>
     </body>
+<script>
+  AOS.init();
+</script>
     
 </html>
