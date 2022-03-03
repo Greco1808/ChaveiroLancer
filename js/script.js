@@ -10,6 +10,12 @@ function avanca(n){
   
 }
 
+function avanca2(n){
+ 
+  controlaSlide2(index += n)
+  
+}
+
 
 function controlaSlide(){
     
@@ -29,6 +35,30 @@ function controlaSlide(){
   }
   
  var count = slides[index]
+   
+ 
+ count.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
+  
+}
+
+function controlaSlide2(){
+    
+
+
+  var slides2 = document.getElementsByClassName("item2")
+  
+  
+  
+  
+  if(index >= slides2.length){
+    index = 0;
+  }
+  
+  if(index < 0){
+    index = slides2.length - 1;
+  }
+  
+ var count = slides2[index]
    
  
  count.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
