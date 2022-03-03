@@ -50,7 +50,7 @@
 .chamada_principal{
 
     position: absolute;
-    top: 5%;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     text-shadow:1px 5px 5px rgba(0,0,0,0.37);
@@ -58,29 +58,29 @@
     color:white;
     font-size:1.6rem;
     padding:0.8rem;
-    width:80%;
-    text-align: center;
+    width:90%;
+    text-align: left;
 }
 
 .chamada_principal h1{
 
     font-size: 2.5rem;
     text-transform: uppercase;
-    margin-bottom: 2.5em;
+    margin-bottom: 3.5em;
     
 }
 
 .chamada_principal h2{
-    margin-bottom: 1em; 
+    margin-bottom: 1.5em; 
     line-height: 40px;
-    font-size: 1.2em;
+    font-size: 1em;
 
 }
 
 .chamada_principal h3{
 
     margin-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1em;
     
 }
 
