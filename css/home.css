@@ -458,5 +458,26 @@ align-items: center;
     
 }
     
+    .container_servicos{
+        
+        display:flex;
+        flex-direction:row;
+        width:95vw;
+        
+    }
+    
+    img_container{
+        
+        margin:2rem;
+        
+    }
+    
+    .servicos_img{
+        
+        height:40vh;
+        
+    }
+        
+    
 
 
