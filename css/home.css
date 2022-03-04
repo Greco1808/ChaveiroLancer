@@ -430,4 +430,18 @@ align-items: center;
     
 }
 
+@media only screen and (min-width:600px){
+ 
+    .img_institucional{
+        
+        height:45vh
+            
+    }
+    
+    .cabecalho{
+        
+        height:45vh;
+    
+}
+
 
