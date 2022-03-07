@@ -451,6 +451,29 @@ align-items: center;
     
 }
     
+    .img_container{
+        
+        margin: 0 auto;
+        width: 75%;
+        height: 100%;
+        
+    }
+    
+    .servicos_img{
+        
+        width: 95%;
+        margin-left: 0.8rem;
+        
+    }
+    
+    .container_servicos{
+        
+        display:flex;
+        flex-direction:row;
+        width:95vw;
+        
+    }
+    
 @media only screen and (min-width:768px){
  
     .img_institucional{
@@ -473,7 +496,7 @@ align-items: center;
         
     }
     
-    .chamada principal h1{
+    .chamada_principal h1{
         
         margin:0;
         
