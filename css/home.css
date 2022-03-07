@@ -142,7 +142,7 @@
     border-radius: 10px;
     background-color: #f9f9f9;
     border: none;
-    padding: 15px 0;
+    padding: 3rem 0;
     box-shadow: 5px 5px 15px -6px #000000;
 }
 
@@ -196,6 +196,7 @@
     color: #fffbf3;
     text-align:center;
     text-transform:uppercase;
+    margin:2rem;
     
 }
 
@@ -472,8 +473,18 @@ align-items: center;
         display:flex;
         flex-direction:row;
         width:95vw;
+        align-items: flex-start;
         
     }
+    
+    #servicos_img_chaveiro{
+        
+        width:95%;
+        margin-left:0.8rem;
+        
+    }
+    
+    
     
 @media only screen and (min-width:768px){
  
