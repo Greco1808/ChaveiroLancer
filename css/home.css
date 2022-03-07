@@ -490,6 +490,17 @@ align-items: center;
         
     }
     
+    #whatsapp_logo{
+    
+    position:fixed;
+    bottom:2%;
+    left:2%;
+    z-index:99;
+    width: 8vw;
+    height: 13vh;
+    
+}
+    
     
     
 @media only screen and (min-width:768px){
@@ -532,6 +543,19 @@ align-items: center;
         width:75%;
         margin-left:3rem
         
+    }
+    
+        #whatsapp_logo{
+    
+    position:fixed;
+    bottom:2%;
+    left:2%;
+    z-index:99;
+    width: 8vw;
+    height: 13vh;
+    
+}
+    
     }
         
     
