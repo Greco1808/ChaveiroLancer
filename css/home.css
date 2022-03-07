@@ -446,6 +446,12 @@ align-items: center;
         
     }
     
+    .chamada_principal h1{
+        
+        margin:1.5em;
+        
+    }
+    
         .cabecalho{
         
         height:95vh;
@@ -510,7 +516,7 @@ align-items: center;
     
     .chamada_principal h1{
         
-        margin:0;
+        margin:1.5em;
         
     }
     
