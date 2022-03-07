@@ -434,13 +434,20 @@ align-items: center;
  
     .img_institucional{
         
-        height:45vh
+        height:100vh
+            
             
     }
     
-    .cabecalho{
+    .chamada_principal{
         
-        height:45vh;
+        top:0;
+        
+    }
+    
+        .cabecalho{
+        
+        height:95vh;
     
 }
     
