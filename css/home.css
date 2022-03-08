@@ -556,7 +556,66 @@ align-items: center;
     
 }
     
+    @media only screen and (min-width:1024px){
+        
+        .cabecalho{
+            
+            height:72vh;
+    
     }
+        
+        .img_institucional{
+            
+            height:75vh;
+            
+        }
+        
+        .chamada_principal h1{
+            
+            margin-bottom:3.5em;
+            font-size:3rem;
+            
+        }
+        
+        .chamada_principal{
+            
+            font-size:1.8rem;
+            
+        }
+        
+        .container_servicos{
+            
+            width:80vw;
+            
+        }
+        
+        .servicos_img{
+            
+            width:85%;
+            
+        }
+    }
+        
+        @media only screen and (min-width:1440px){
+    
+            texto_servicos_container{
+                
+                margin-top:2rem;
+                font-size:3rem;
+            
+    }
+            
+            #preco{
+                
+                margin-top:2rem;
+                
+            }
+    
+            
+            
+            
+        
+        
         
     
 
