@@ -602,6 +602,7 @@ align-items: center;
         position: relative;
         margin: 4rem 0;
         flex-wrap:wrap;
+        justify-content: center;
             
             
         }
@@ -617,6 +618,15 @@ align-items: center;
     width: 30%;
             
         }
+        
+        
+#container_controle_direita, 
+#container_controle_direita{
+    
+    display:none;
+    
+        }
+        
         
         
     
