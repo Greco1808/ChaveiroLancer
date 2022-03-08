@@ -613,7 +613,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-width: 30%;
+    width: 30%;
             
         }
         
@@ -649,6 +649,19 @@ align-items: center;
                 margin: 0 1rem;
                 
             }
+            
+            .item{
+            
+            
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+            
+        }
     
     
             
