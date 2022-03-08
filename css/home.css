@@ -598,7 +598,7 @@ align-items: center;
         
         @media only screen and (min-width:1400px){
     
-            texto_servicos_container{
+            .texto_servicos_container{
                 
                 margin-top:2rem;
                 font-size:3rem;
