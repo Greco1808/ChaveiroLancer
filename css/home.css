@@ -601,11 +601,12 @@ align-items: center;
             .texto_servicos_container{
                 
                 margin-top:2rem;
-                font-size:3rem;
+                font-size:1.5rem;
+                line-height:2rem;
             
     }
             
-            #preco{
+            #preço{
                 
                 margin-top:2rem;
                 
