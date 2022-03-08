@@ -596,6 +596,7 @@ align-items: center;
         }
         .container{
             
+            
         display: flex;
         overflow: auto;
         position: relative;
@@ -606,7 +607,7 @@ align-items: center;
         }
         .item{
             
-            
+    min-width:0;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
@@ -650,18 +651,9 @@ align-items: center;
                 
             }
             
-            .item{
             
             
-    height: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 30%;
-            
-        }
+    
     
     
             
