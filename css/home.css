@@ -594,6 +594,30 @@ align-items: center;
             width:85%;
             
         }
+        .container{
+            
+        display: flex;
+        overflow: auto;
+        position: relative;
+        margin: 4rem 0;
+        flex-wrap:wrap;
+            
+            
+        }
+        .item{
+            
+            
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+            
+        }
+        
+        
     
         
         @media only screen and (min-width:1400px){
