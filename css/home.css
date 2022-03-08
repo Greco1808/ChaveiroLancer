@@ -601,7 +601,7 @@ align-items: center;
             .texto_servicos_container{
                 
                 margin-top:2rem;
-                font-size:1.5rem;
+                font-size:1.2rem;
                 line-height:2rem;
             
     }
@@ -609,6 +609,20 @@ align-items: center;
             #preço{
                 
                 margin-top:2rem;
+                
+            }
+            
+            .servicos_img_chaveiro{
+                
+                width: 88%;
+                margin-left: 2.2rem;
+                
+            }
+            
+            .orcamento{
+                
+                padding: 1rem 9rem;
+                margin: 0 1rem;
                 
             }
     
