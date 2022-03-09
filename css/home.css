@@ -597,14 +597,11 @@ align-items: center;
         .container{
             
             
-        display: flex;
-        overflow: auto;
-        position: relative;
-        margin: 4rem 0;
-        flex-wrap:wrap;
-        justify-content: center;
-            
-            
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-items: center;
+        grid-gap:2.5rem;
+           
         }
         .item{
             
@@ -615,17 +612,37 @@ align-items: center;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 30%;
+            
+        }
+        
+        .nossos_servicos_img{
+            
+            height:53vh;
+            
+        }
+        
+        .legenda{
+            
+            display:none;
             
         }
         
         
 #container_controle_direita, 
-#container_controle_direita{
+#container_controle_esquerda{
     
     display:none;
     
         }
+        
+ #container_controle_direita_2,
+ #container_controle_esquerda_2{
+     
+     display:none;
+     
+        }
+        
+        
         
         
         
