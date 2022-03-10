@@ -501,6 +501,12 @@ align-items: center;
     
 }
     
+    .legenda_desktop{
+        
+        display:none;
+        
+    }
+    
     
     
 @media only screen and (min-width:768px){
@@ -641,6 +647,14 @@ align-items: center;
      
      display:none;
      
+        }
+        
+        .legenda_desktop{
+         
+            position:absolute;
+            display:block;
+            
+            
         }
         
 
