@@ -317,6 +317,7 @@ iframe{
     
   min-width: 100%;
   scroll-snap-align: start;
+  position:relative;
   
     
 }
@@ -653,8 +654,17 @@ align-items: center;
         
         .legenda_desktop{
          
-            position:absolute;
-            display:block;
+    position: absolute;
+    display: block;
+    top: 2%;
+    left: 1%;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 1px black;
+    box-shadow: 5px 5px 15px -6px #000000;
             
             
         }
