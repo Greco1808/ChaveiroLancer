@@ -611,6 +611,7 @@ align-items: center;
         justify-items: center;
         grid-gap:2.5rem;
         margin:0 2rem 2rem 2rem;
+        overflow:inherit;
            
         }
         .item{
@@ -628,6 +629,13 @@ align-items: center;
         .nossos_servicos_img{
             
             height:53vh;
+            border: 2px solid white;
+            
+        }
+        
+        .nossos_servicos_img: hover{
+         
+            border:2px solid red;
             
         }
         
