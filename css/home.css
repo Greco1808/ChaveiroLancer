@@ -563,7 +563,7 @@ align-items: center;
     left:2%;
     z-index:99;
     width: 8vw;
-    height: 13vh;
+    height: 9vh;
     
 }
     
@@ -679,6 +679,14 @@ align-items: center;
             
         }
         
+        #whatsapp_logo{
+            
+            width:8vw;
+            heigth:10vh;
+            
+        }
+        
+        
 
             
             
@@ -709,6 +717,13 @@ align-items: center;
                 
                 width: 88%;
                 margin-left: 2.2rem;
+                
+            }
+            
+            #whatsapp_logo{
+                
+                width:6vw;
+                height:11vh;
                 
             }
             
