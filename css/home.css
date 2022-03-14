@@ -739,6 +739,44 @@ align-items: center;
             }
             
             
+             @media only screen and (min-height:800px){
+            
+                 .img_institucional{
+                     
+                     height:70vh;
+                 
+            }
+                 
+                 .cabecalho{
+                     
+                     height:68vh;
+                     
+                 }
+                 
+            }
+            
+             @media only screen and (min-height:1150px){
+                 
+                 .img_institucional{
+                     
+                     height:40vh;
+                 
+            }
+                 
+                 .cabecalho{
+                     
+                     height:38vh;
+                     
+                 }
+                 
+                 
+                 
+            }
+            
+            
+            
+            
+            
             
             
             
