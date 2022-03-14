@@ -534,6 +534,22 @@ align-items: center;
         
     }
     
+    @media only screen and (max-width: 819px) and (min-width: 767px){
+                 
+                 .img_institucional{
+                     
+                     height:40vh;
+                 
+            }
+                 
+                 .cabecalho{
+                     
+                     height:38vh;
+                     
+                 }
+                 
+                 }
+                 
     
     
     
@@ -744,22 +760,7 @@ align-items: center;
             
             
 
-             @media only screen and (max-width: 819px) and (min-width: 767px){
-                 
-                 .img_institucional{
-                     
-                     height:40vh;
-                 
-            }
-                 
-                 .cabecalho{
-                     
-                     height:38vh;
-                     
-                 }
-                 
-                 }
-                 
+             
                  
                  
                  
