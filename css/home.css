@@ -743,24 +743,7 @@ align-items: center;
             }
             
             
-             @media only screen and (min-width:400px),screen and (max-height:800px){
-            
-                 .img_institucional{
-                     
-                     height:70vh;
-                 
-            }
-                 
-                 .cabecalho{
-                     
-                     height:68vh;
-                     
-                 }
-                 
-            
-                 
-            }
-            
+
              @media screen and (max-width: 820px) and (min-width: 768px){
                  
                  .img_institucional{
