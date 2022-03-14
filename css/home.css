@@ -739,7 +739,7 @@ align-items: center;
             }
             
             
-             @media only screen and (min-height:800px){
+             @media only screen and (min-width:350px) and (min-height:800px){
             
                  .img_institucional{
                      
