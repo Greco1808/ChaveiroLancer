@@ -250,7 +250,6 @@
 .item{
   min-width: 100%;
   scroll-snap-align: start;
-  height: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
