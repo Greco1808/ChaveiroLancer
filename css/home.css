@@ -759,7 +759,7 @@ align-items: center;
                  
             
             
-             @media only screen and (min-width:768px) and (max-width:820px){
+             @media screen and (max-width: 820px) and (min-width: 768px){
                  
                  .img_institucional{
                      
@@ -771,6 +771,8 @@ align-items: center;
                      
                      height:38vh;
                      
+                 }
+                 
                  }
                  
                  
