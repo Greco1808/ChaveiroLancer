@@ -534,21 +534,11 @@ align-items: center;
         
     }
     
-    @media only screen and (min-width: 820px){
+}
+    
+   
                  
-                 .img_institucional{
-                     
-                     height:40vh;
                  
-            }
-                 
-                 .cabecalho{
-                     
-                     height:38vh;
-                     
-                 }
-                 
-                 }
                  
     
     
@@ -595,9 +585,22 @@ align-items: center;
         margin-left:3rem
         
     }
+  }
     
-   
-    
+    @media only screen and (min-width:820px) and (min-height:1000px){
+     
+        .img_institucional{
+            
+            height:40vh;
+            
+        }
+        
+        .cabecalho{
+            
+            height:38vh;
+        
+    }
+}
        
     
     @media only screen and (min-width:1024px){
@@ -723,7 +726,7 @@ align-items: center;
 
             height:6rem;
         }
-       
+}
         
 
             
@@ -757,6 +760,8 @@ align-items: center;
                 margin-left: 2.2rem;
                 
             }
+            
+}
             
             
 
