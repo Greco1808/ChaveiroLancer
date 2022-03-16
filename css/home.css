@@ -607,7 +607,27 @@ align-items: center;
         }
 }
 
-@media only screen and (min-width:520px) and (min-height:720px){
+ @media only screen and (min-width:820px) and (min-height:1000px){
+     
+        .img_institucional{
+            
+            height:40vh;
+            
+        }
+        
+        .cabecalho{
+            
+            height:38vh;
+        
+    }
+        
+        .nossos_servicos_img {
+         height: 40vh;
+            
+        }
+}
+
+@media only screen and (min-width:520px) and (max-height:720px){
  
     .servicos_img{
         
@@ -617,7 +637,7 @@ align-items: center;
     
 }
     
-    @media only screen and (min-width:720px) and (min-height:540px){
+    @media only screen and (min-width:720px) and (max-height:540px){
  
     .servicos_img{
         
