@@ -454,6 +454,28 @@ align-items: center;
         
     }
 
+@media only screen and (max-width:320px){
+    
+    
+    .servicos_img{
+        
+        height:25vh;
+        
+    }
+    
+    
+}
+
+   
+    
+    .chamada_principal h1{
+        
+        font-size: 2rem;
+    
+    
+
+
+
 
 
 @media only screen and (min-width:600px){
