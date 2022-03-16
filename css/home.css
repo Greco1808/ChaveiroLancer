@@ -606,6 +606,25 @@ align-items: center;
             
         }
 }
+
+@media only screen and (min-width:520px) and (min-height:720px){
+ 
+    .servicos_img{
+        
+        height:47vh;
+    }
+    
+    
+}
+    
+    @media only screen and (min-width:720px) and (min-height:540px){
+ 
+    .servicos_img{
+        
+        height:42vh;
+        }
+    
+}
        
     
     @media only screen and (min-width:1024px){
