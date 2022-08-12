@@ -483,7 +483,7 @@ align-items: center;
     
     .chamada_principal {
     position: absolute;
-    top: 0;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     text-shadow: 1px 5px 5px rgb(0 0 0 / 37%);
