@@ -495,8 +495,9 @@ align-items: center;
         .cabecalho{
         
         height:95vh;
-        background-image:url("../chaveiro_banner.PNG");
-    
+        background-image:url("../img/chaveiro_banner.PNG");
+        background-repeat:no-repeat;
+        
 }
     
     .img_container{
