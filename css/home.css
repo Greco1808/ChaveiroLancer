@@ -475,7 +475,7 @@ align-items: center;
     .img_institucional{
         
         height:100vh;
-        background-image:url("../chaveiro_banner.PNG");
+        
         
             
     }
@@ -495,6 +495,7 @@ align-items: center;
         .cabecalho{
         
         height:95vh;
+        background-image:url("../chaveiro_banner.PNG");
     
 }
     
