@@ -472,15 +472,16 @@ align-items: center;
 
 @media only screen and (min-width:600px){
  
-.img_institucional{
+    .img_institucional{
         
         height:100vh;
         display:none;
         
+        
+            
     }
     
     .chamada_principal {
-        
     position: absolute;
     top: 20%;
     left: 50%;
@@ -494,7 +495,7 @@ align-items: center;
     font-family: 'Roboto', sans-serif;
     backdrop-filter: blur(3px) saturate(180%);
     -webkit-backdrop-filter: blur(9px) saturate(180%);
-    background-color: rgba(83, 78, 78,, 0.31);
+    background-color: rgba(83, 78, 78,0.31);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
     text-align: center;
@@ -510,12 +511,12 @@ align-items: center;
         .cabecalho{
         
     height: 95vh;
-    background-image: url(../img/chaveiro_banner.jpg);
+    background-image: url(../img/chaveiro_banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
         
-
+}
     
     .img_container{
         
@@ -568,7 +569,8 @@ align-items: center;
         
     }
     
-}
+
+
     
    
                  
