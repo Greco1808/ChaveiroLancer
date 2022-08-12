@@ -472,16 +472,15 @@ align-items: center;
 
 @media only screen and (min-width:600px){
  
-    .img_institucional{
+.img_institucional{
         
         height:100vh;
         display:none;
         
-        
-            
     }
     
     .chamada_principal {
+        
     position: absolute;
     top: 20%;
     left: 50%;
