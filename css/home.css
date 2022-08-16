@@ -125,7 +125,6 @@
     padding:17px 0;
     background-color:#445593;
     border:none;
-    width:100vw;
     color:white;
     font-weight:bold;
 
@@ -687,6 +686,7 @@ align-items: center;
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-gap: 0.8em;
+        margin:0 1em;
 }
         
         .container_img_banner{
@@ -701,6 +701,8 @@ align-items: center;
     width: 48vw;
     height: 90vh;
     object-fit: cover;
+    border-radius:8px;
+    box-shadow: 5px 5px 5px grey;
 }
         
         
@@ -709,6 +711,8 @@ align-items: center;
             
             max-width:30vw;
             max-height:30vh;
+            border-radius:8px;
+            box-shadow: 5px 5px 5px grey;
             
         }
         
