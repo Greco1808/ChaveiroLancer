@@ -682,6 +682,27 @@ align-items: center;
     
     @media only screen and (min-width:1024px){
         
+        .container_grid_nosso_cantinho{
+            
+            display: grid;
+            grid-template-columns: auto auto auto;
+            
+        }
+        
+        .container_img{
+            
+            max-width:30vw;
+            max-height:30vh;
+            
+        }
+        
+        .cantinho_img{
+            
+            max-width:30vw;
+            max-height:30vh;
+           object-fit:cover;
+        }
+        
         .cabecalho{
             
             height:72vh;
