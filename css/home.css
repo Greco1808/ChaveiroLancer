@@ -682,12 +682,28 @@ align-items: center;
     
     @media only screen and (min-width:1024px){
         
-        .container_grid_nosso_cantinho{
+        .container_grid_nosso_cantinho {
             
-            display: grid;
-            grid-template-columns: auto auto auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 0.8em;
+}
+        
+        .container_img_banner{
+         
+            grid-row: 1 /span 3;
+            grid-column: 1 / span 2;
             
         }
+        
+        .cantinho_img_banner {
+    
+    width: 48vw;
+    height: 90vh;
+    object-fit: cover;
+}
+        
+        
         
         .container_img{
             
@@ -696,18 +712,14 @@ align-items: center;
             
         }
         
-        .cantinho_img_banner{
-            
-            grid-row: 1 / span 2;
-            
-        }
         
-        .cantinho_img{
-            
-            max-width:30vw;
-            max-height:30vh;
-           object-fit:cover;
-        }
+        
+        .cantinho_img {
+    
+    max-height: 29vh;
+    object-fit: cover;
+    width: 23vw;
+}
         
         .cabecalho{
             
