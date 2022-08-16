@@ -696,6 +696,12 @@ align-items: center;
             
         }
         
+        .cantinho_img_banner{
+            
+            grid-row: 1 / span 2;
+            
+        }
+        
         .cantinho_img{
             
             max-width:30vw;
