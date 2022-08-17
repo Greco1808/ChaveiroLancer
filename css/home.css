@@ -693,9 +693,9 @@ align-items: center;
          
             grid-row: 1 /span 3;
             grid-column: 1 / span 2;
-            width: 51vw;
+            width: 55vw;
             height: 93vh;
-            border-radius:8px;
+            
             
             
         }
@@ -716,8 +716,8 @@ align-items: center;
             border-radius:8px;
             box-shadow: 5px 5px 5px grey;
             max-height: 30vh;
-            width: 25vw;
-            border-radius:8px;
+            min-width: 20vw;
+            
             
         }
         
