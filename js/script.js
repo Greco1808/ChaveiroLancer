@@ -1,5 +1,5 @@
 //var index =0
-/var n;
+//var n;
 
 
 //console.log(slides)
