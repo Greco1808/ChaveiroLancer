@@ -710,6 +710,7 @@ align-items: center;
         grid-template-columns: auto auto auto auto;
         grid-gap: 0.8em;
         margin:0 1em;
+        overflow:none;
 }
         
         .container_img_banner{
