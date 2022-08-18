@@ -387,6 +387,28 @@ iframe{
     padding: 1rem;
 }
 
+.container_grid_nosso_cantinho{
+    
+    display:flex;
+    overflow:auto;
+    
+}
+
+.container_img_banner .container_img{
+    
+    max-width: 100vw;
+    height: 43vh;
+    object-fit: cover;
+    
+}
+
+.cantinho_img_banner .cantinho_img{
+    
+    width:100%;
+    height:100%;
+    
+}
+
 
 
 #whatsapp_logo{
