@@ -740,6 +740,8 @@ align-items: center;
             box-shadow: 5px 5px 5px grey;
             max-height: 30vh;
             min-width: 20vw;
+            height:auto;
+            width:auto;
             
             
         }
