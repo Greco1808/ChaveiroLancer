@@ -631,6 +631,7 @@ align-items: center;
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 1em;
+    overflow:hidden;
 }
     
     .container_img_banner, .container_img {
