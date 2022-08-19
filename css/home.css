@@ -365,6 +365,28 @@ iframe{
 
 }
 
+#container_controle_direita_3, #container_controle_esquerda_3{
+    
+    position:absolute;
+    top:62%;
+    padding:10px;
+    background:#6d6f7f;
+    transform:translate(0, 50%);
+    
+}
+
+
+#container_controle_esquerda_3{
+
+    right:0;
+
+}
+
+#container_controle_direita_3{
+
+    left:0;
+
+}
 .nossos_servicos_img{
 
     object-fit: cover;
