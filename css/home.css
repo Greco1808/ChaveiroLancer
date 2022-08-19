@@ -522,6 +522,15 @@ align-items: center;
 
 
 @media only screen and (min-width:600px){
+    
+    
+    
+    
+    #container_controle_direita_3, #container_controle_esquerda_3{
+        
+        display:none;
+        
+    }
  
     .img_institucional{
         
@@ -617,6 +626,24 @@ align-items: center;
         
     }
     
+    .container_grid_nosso_cantinho {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1em;
+}
+    
+    .container_img_banner, .container_img {
+    width: 49vw;
+    height: 66vh;
+}
+    
+    
+    .cantinho_img_banner, .cantinho_img {
+    width: 49vw;
+    height: 100%;
+    object-fit: cover;
+}
 
 
     
