@@ -409,6 +409,13 @@ iframe{
     padding: 1rem;
 }
 
+
+.nosso_cantinho{
+    
+    position:relative;
+    
+}
+
 .container_grid_nosso_cantinho{
     
     display:flex;
